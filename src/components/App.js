@@ -31,10 +31,12 @@ const App = () => {
   ];
 
   return (
-    <div>
+    <div className="App">
       React-Router
-      <Sidebar />
-      <Main />
+      <div className="parent">
+        <Sidebar />
+        <Main />
+      </div>
     </div>
   );
 };
